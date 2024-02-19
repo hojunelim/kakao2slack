@@ -144,7 +144,7 @@ def chat_last_save(talk_name):
         return df
 
 def send_slack(talk_name,msg):
-    token="xoxb-3501213867331-3503594111188-l5POGSS3QdyuJ9F4fM2nLjgD"
+    token="xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     attachments={
         "color":"#ff0000",
         "author_name":"kakao_"+talk_name,
